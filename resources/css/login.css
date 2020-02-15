@@ -1,0 +1,169 @@
+/*-------------*/
+/* BASIC SETUP */
+/*-------------*/
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body  {
+    color: #555555;
+    font-family: 'Dosis', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/*-------------*/
+/* USED TO MAINTAIN LAYOUTS */
+/*-------------*/
+
+.clearfix {zoom: 1}
+.clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/*-------------*/
+/* REUSABLE COMPONENTS */
+/*-------------*/
+
+.row	{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+section {
+    padding-top: 100px;
+}
+
+/* HEADINGS */
+
+h1  {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 240%;
+}
+
+h2	{
+	font-size: 270%;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 100px;
+}
+
+h3	{
+    position: relative;
+	font-size: 200%;
+	text-transform: none;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h4  {
+    position: relative;
+    text-align: center;
+    font-size: 120%;
+}
+/*-------------*/
+/* HEADER */
+/*-------------*/
+
+header  {
+    height: 110px;
+    background-color: #444;
+}
+
+.mainlogo   {
+    width: 3%;
+    height: auto;
+    margin: 25px;
+}
+
+.main-nav {
+
+	float: right;
+	list-style: none;
+    margin-top: 35px;
+    font-size: 25px;
+    margin-right: 25px;
+
+}
+
+.main-nav li {
+
+	display: inline-block;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+padding: 8px 0;
+color: #ddd;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 90%;
+border-bottom: 2px  solid transparent;
+transition: border-bottom 0.3s, color 0.3s;
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+border-bottom: 2px solid #00cc00;
+}
+
+/*-------------*/
+/* LOGIN BOX */
+/*-------------*/
+
+.login-box  {
+    
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    left: 23%;
+    
+}
+
+.login-box h3 {
+    padding-top: 20px;
+    right: 100px;
+    text-decoration: none;
+}
+
+.login-box h4   {
+    padding-top: 20px;
+    right: 90px;
+    text-decoration: none;
+}
+
+/* FORM */
+
+.space-after-heading    {
+    margin-bottom: 30px;
+}
+
+.form-content   {
+    padding-left: 300px;
+    margin: 20px;
+}
+
+.small-break    {
+    margin-bottom: 30px;
+}
+
+.submit-button  {
+    padding: 10px 25px;
+    background-color: rgb(55, 118, 236);
+    border-radius: 10%;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
