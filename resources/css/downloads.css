@@ -1,0 +1,163 @@
+/*-------------*/
+/* BASIC SETUP */
+/*-------------*/
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body  {
+    color: #555555;
+    font-family: 'Dosis', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/*-------------*/
+/* USED TO MAINTAIN LAYOUTS */
+/*-------------*/
+
+.clearfix {zoom: 1}
+.clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/*-------------*/
+/* REUSABLE COMPONENTS */
+/*-------------*/
+
+.row	{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+section {
+    padding-top: 70px;
+}
+
+/* HEADINGS */
+
+h1  {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 240%;
+}
+
+h2	{
+	font-size: 270%;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 100px;
+}
+
+h3	{
+    position: relative;
+	font-size: 200%;
+	text-transform: none;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h4  {
+    position: relative;
+    font-size: 120%;
+    text-transform: none;
+    text-align: center;
+}
+
+h5  {
+    position: relative;
+    font-size: 90%;
+    text-transform: none;
+    text-align: center;
+}
+
+/*-------------*/
+/* HEADER */
+/*-------------*/
+
+header  {
+    height: 110px;
+    background-color: #444;
+}
+
+.mainlogo   {
+    width: 3%;
+    height: auto;
+    margin: 25px;
+}
+
+.main-nav {
+
+	float: right;
+	list-style: none;
+    margin-top: 35px;
+    font-size: 25px;
+    margin-right: 25px;
+
+}
+
+.main-nav li {
+
+	display: inline-block;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+padding: 8px 0;
+color: #ddd;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 90%;
+border-bottom: 2px  solid transparent;
+transition: border-bottom 0.3s, color 0.3s;
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+border-bottom: 2px solid #00cc00;
+}
+
+.break-between-sections {
+    height: 90px;
+    color: #fff;
+}
+
+.downloads  {
+    width: 1400px;
+    height: 1000px;
+    position: absolute;
+    left: 12%;
+    padding: 20px;
+}
+
+.downloads h3   {
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+.downloads h5   {
+    padding-bottom: 30px;
+}
+
+.platform-image {
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 30px auto;
+}
+
+.download-link  {
+    color: #1db302;
+    text-decoration: none;
+}
