@@ -38,7 +38,7 @@ body  {
 }
 
 section {
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 /* HEADINGS */
@@ -68,9 +68,11 @@ h3	{
 
 h4  {
     position: relative;
+    font-size: 150%;
+    text-transform: none;
     text-align: center;
-    font-size: 120%;
 }
+
 /*-------------*/
 /* HEADER */
 /*-------------*/
@@ -120,43 +122,31 @@ border-bottom: 2px solid #00cc00;
 }
 
 /*-------------*/
-/* LOGIN BOX */
+/* SIGNUP FORM */
 /*-------------*/
 
-.login-box  {
-    
-    width: 1000px;
-    height: 600px;
+.form-content    {
+    padding: 20px 150px;
+}
+
+.signup {
+    width: 1200px;
+    height: 900px;
     position: absolute;
-    left: 23%;
-    
+    left: 20%;
+    top: 25%;
 }
 
-.login-box h3 {
-    padding-top: 20px;
-    right: 100px;
+.signup h3  {
     text-decoration: none;
-}
-
-.login-box h4   {
-    padding-top: 20px;
-    right: 90px;
-    text-decoration: none;
-}
-
-/* FORM */
-
-.space-after-heading    {
-    margin-bottom: 30px;
-}
-
-.form-content   {
-    padding-left: 300px;
-    margin: 20px;
 }
 
 .small-break    {
     margin-bottom: 30px;
+}
+
+.capitalise {
+    text-transform: capitalize;
 }
 
 .submit-button  {
