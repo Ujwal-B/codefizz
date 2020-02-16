@@ -143,6 +143,10 @@ border-bottom: 2px solid #00cc00;
 
 .downloads h3   {
     text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.awesome    {
     padding-bottom: 30px;
 }
 
