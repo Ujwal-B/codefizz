@@ -33,8 +33,8 @@ body  {
 /*-------------*/
 
 .row	{
-	width: 1200px;
-	margin: 0 auto;
+	width: 1100px;
+    margin: 0 auto;
 }
 
 section {
@@ -63,21 +63,12 @@ h3	{
 	font-size: 200%;
 	text-transform: none;
 	text-align: center;
-    text-decoration: underline;
-    margin-bottom: 50px;
+	text-decoration: underline;
 }
 
 h4  {
     position: relative;
-    font-size: 120%;
-    text-transform: none;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-h5  {
-    position: relative;
-    font-size: 90%;
+    font-size: 150%;
     text-transform: none;
     text-align: center;
 }
@@ -130,42 +121,35 @@ transition: border-bottom 0.3s, color 0.3s;
 border-bottom: 2px solid #00cc00;
 }
 
+
 /*-------------*/
-/* TABLE ELEMENTS */
+/* GETTING STARTED */
 /*-------------*/
 
-.table-class h3 {
-    text-decoration: none;
-}
-
-.topic-class, .topic-class-h    {
-    width: 800px;
-    border: 2px solid #009e00;
-    padding: 5px;
-}
-.view-class, .view-class-h {
-    width: 250px;
-    border: 2px solid #009e00;
-    padding: 5px;
-}
-.replies-class, .replies-class-h  {
-    width: 250px;
-    border: 2px solid #009e00;
-    padding: 5px;
-}
-
-.topic-class-h, .view-class-h, .replies-class-h {
-    background-color: #affdaf;
-    font-size: 110%;
-    font-weight: 400;
+.topic-link-para    {
+    margin: 18px;
 }
 
 .topic-link {
     color: #009e00;
+    font-size: 36px;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
-.small-break    {
-    height: 200px;
+.topic-link-para-content    {
+    margin: 18px 18px 40px 18px;
+    color: #444;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.gap    {
     color: #fff;
+    height: 60px;
+}
+
+.faq-link   {
+    color: #009e00;
+    text-decoration: none;
 }

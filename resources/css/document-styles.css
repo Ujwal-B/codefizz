@@ -34,11 +34,12 @@ body  {
 
 .row	{
 	width: 1200px;
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 section {
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 /* HEADINGS */
@@ -63,23 +64,22 @@ h3	{
 	font-size: 200%;
 	text-transform: none;
 	text-align: center;
-    text-decoration: underline;
-    margin-bottom: 50px;
+	text-decoration: underline;
 }
 
 h4  {
     position: relative;
-    font-size: 120%;
+    font-size: 190%;
     text-transform: none;
-    text-align: center;
-    margin-bottom: 30px;
+    margin: 30px;
 }
 
 h5  {
     position: relative;
-    font-size: 90%;
-    text-transform: none;
-    text-align: center;
+    margin: 30px;
+    font-size: 170%;
+    font-weight: 300;
+    color: #009e00;
 }
 
 /*-------------*/
@@ -131,41 +131,40 @@ border-bottom: 2px solid #00cc00;
 }
 
 /*-------------*/
-/* TABLE ELEMENTS */
+/* text part */
 /*-------------*/
 
-.table-class h3 {
+.text-section p {
+    margin: 30px;
+    font-size: 130%;
+    text-align: justify;
+}
+
+.editor-features p {
+    margin: 30px;
+    font-size: 130%;
+    text-align: justify;
+}
+
+.specialised-editors p {
+    margin: 30px;
+    font-size: 130%;
+    text-align: justify;
+}
+
+/*-------------*/
+/* FAQ */
+/*-------------*/
+
+.faq-section p {
+    margin: 30px;
+    font-size: 130%;
+    text-align: justify;
+}
+
+.faq-section p a    {
+    color: #009e00;
     text-decoration: none;
-}
-
-.topic-class, .topic-class-h    {
-    width: 800px;
-    border: 2px solid #009e00;
-    padding: 5px;
-}
-.view-class, .view-class-h {
-    width: 250px;
-    border: 2px solid #009e00;
-    padding: 5px;
-}
-.replies-class, .replies-class-h  {
-    width: 250px;
-    border: 2px solid #009e00;
-    padding: 5px;
-}
-
-.topic-class-h, .view-class-h, .replies-class-h {
-    background-color: #affdaf;
-    font-size: 110%;
     font-weight: 400;
 }
 
-.topic-link {
-    color: #009e00;
-    text-decoration: none;
-}
-
-.small-break    {
-    height: 200px;
-    color: #fff;
-}
