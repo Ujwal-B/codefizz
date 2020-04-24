@@ -73,6 +73,15 @@ h4  {
     text-align: center;
 }
 
+/* Thank you form */
+
+h5  {
+    position: relative;
+    font-size: 200%;
+    text-transform: capitalize;
+    text-align: center;
+}
+
 /*-------------*/
 /* HEADER */
 /*-------------*/
@@ -129,6 +138,16 @@ border-bottom: 2px solid #00cc00;
     padding: 20px 150px;
 }
 
+.verify-button    {
+    padding: 10px 40px;
+    background-color: rgb(123, 241, 148);
+    border-radius: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-style: none;
+}
+
 .signup {
     width: 1200px;
     height: 900px;
@@ -158,3 +177,14 @@ border-bottom: 2px solid #00cc00;
     color: #fff;
     border-style: none;
 }
+
+
+/*####################################*/
+  /*  CLASSES FOR THANK YOU PAGE */
+/*####################################*/
+
+.thank-you-first-para,
+.thank-you-second-para   {
+    padding: 100px 100px 70px 100px;
+}
+
