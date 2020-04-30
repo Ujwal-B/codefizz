@@ -35,7 +35,7 @@ function callingEmailFunction ()    {
 
 function validateEmail ()   {
     var emailId = document.getElementById("email").value;
-    var val = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    var val = /\S+@\S+\.\S+/;
     //console.log (val.test(emailId));
     var result = val.test (emailId);    
     return result;
