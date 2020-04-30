@@ -1,10 +1,8 @@
-function openNewPage ()
-{
+function openNewPage () {
     window.open("./thankyou.html");
 }
 
-function verifyNo ()
-{
+function verifyNo ()    {
     var validity = phoneNumLength ();
     if (validity == false)
     {
@@ -14,8 +12,7 @@ function verifyNo ()
     }
 }
 
-function phoneNumLength ()
-{
+function phoneNumLength ()  {
     var num = document.getElementById("tel-no").value;
     console.log (num);
     if (/^\d{10}$/.test(num))   {   // Regex. ^ - start, $ - end, \d - digits, {10} - indicating 10 digits
@@ -26,8 +23,26 @@ function phoneNumLength ()
     }
 }
 
+
+function callingEmailFunction ()    {
+    result = validateEmail ();
+    if (result) {
+        window.alert ("No problem");
+    }   else    {
+        window.alert ("Error: Improper syntax. Please correct it and verify again");
+    }
+}
+
+function validateEmail ()   {
+    var emailId = document.getElementById("email").value;
+    var val = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    //console.log (val.test(emailId));
+    var result = val.test (emailId);    
+    return result;
+}
+
 function valid ()   {
-    var validity = phoneNumLength ();
+    var validity = (phoneNumLength () && validateEmail());
     if (validity == false)
     {
         window.alert ("Looks like there might be a problem in the form. Recheck and submit again.")
@@ -35,7 +50,7 @@ function valid ()   {
         return false;
     }   else    {
         //openNewPage ();
-        alert ("lol");
+        alert ("Looks like there is no syntax problem :)");
         return true;
     }
 }
